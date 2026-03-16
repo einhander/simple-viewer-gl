@@ -1,10 +1,10 @@
 name: Build DEBs and publish APT repo
 
 on:
-  push:
-    tags:
-      - 'v*'
   workflow_dispatch:
+  # push:
+  #   tags:
+  #     - 'v*'
 
 permissions:
   contents: read
